@@ -224,7 +224,13 @@ while playing:
                 print(cell)
             break
         elif turns == 9:
+            print(f'x {poenix} | {poenio} o')
+            board[0] = [0, 0, 0]
+            board[1] = [0, 0, 0]
+            board[2] = [0, 0, 0]
+            turns -= turns
+            gl, gs, gd, s, sl, sd, dl, ds, dd = False, False, False, False, False, False, False, False, False
             for cell in board:
                 print(cell)
-            exit()
+            break
         print(cell)
