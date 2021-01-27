@@ -152,6 +152,7 @@ while playing:
             print('o je pobedio')
         else:
             print('izjednaceno')
+        break
         exit()
     else:
         print('i dont understand you')
